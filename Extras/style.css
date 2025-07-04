@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 40px;
+  margin: 0;
+}
+
+/* ====== Lista de Hobbies ====== */
+.hobbies ul {
+  list-style-type: square;      /* ou "circle" */
+  padding-left: 20px;
+}
+
+.hobbies li {
+  margin-bottom: 10px;          /* espaço entre itens */
+  background-color: #e0f7fa;    /* cor de fundo leve */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* ====== Formulário ====== */
+.contato form {
+  max-width: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;          /* espaço entre campos */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contato button {
+  padding: 12px;
+  background-color: #00796b;    /* cor personalizada */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contato button:hover {
+  background-color: #004d40;    /* cor mais escura ao passar o mouse */
+}
